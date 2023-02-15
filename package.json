@@ -12,6 +12,7 @@
 	"dependencies": {
 		"astro": "^2.0.10",
 		"rehype-katex": "^6.0.2",
+		"remark-denden-ruby": "^0.2.0",
 		"remark-math": "^5.1.1"
 	}
 }
