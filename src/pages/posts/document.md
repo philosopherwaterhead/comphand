@@ -1,3 +1,7 @@
+---
+layout: '/src/layouts/MarkdownLayout.astro'
+---
+
 # 文書記録管理法
 
 2023年12月15日　第一版
