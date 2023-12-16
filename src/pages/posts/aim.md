@@ -5,6 +5,7 @@ layout: '/src/layouts/MarkdownLayout.astro'
 # 目標法
 
 2023年7月20日　第一版
+2023年12月16日　第二版
 
 前文
 
