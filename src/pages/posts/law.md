@@ -293,6 +293,8 @@ layout: '/src/layouts/MarkdownLayout.astro'
 
 第三十九条　睡眠中の集中力はゼロとして計算する。
 
+第四十条　
+
 　　
 
 別表Ⅰ
