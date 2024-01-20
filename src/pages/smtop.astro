@@ -1,13 +1,17 @@
+---
+import Navigation from "../components/Navigation.astro";
+---
+
 <html lang = "ja">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width" />
-    <title>Astro</title>
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/svg.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Comph-notes</title>
+	</head>
   <body>
-  <a href="/">サイトトップ</a>
-	<a href="/smtop/">数理</a>
-	<a href="/lawstop/">法集</a>
+  <Navigation />
 
     <h1>数理</h1>
     数理に関するおぼえがき。
