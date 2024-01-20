@@ -1,0 +1,27 @@
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/svg.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Comph-notes</title>
+	</head>
+    <body>
+        <nav>
+            <a href="/">サイトトップ /</a>
+            <a href="/smtop/">数理 /</a>
+            <a href="/lawstop/">法集</a>
+            <style>
+                nav{
+                    background-color: #555;
+                }
+                a{
+                    text-decoration: none;
+                    color: #fff
+                }
+            </style>
+        </nav>
+        <slot /><!-- ここにコンテンツが挿入されます -->
+    </body>
+
+</html>
