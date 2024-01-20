@@ -8,19 +8,29 @@
 	</head>
     <body>
         <nav>
-            <a href="/">サイトトップ /</a>
-            <a href="/smtop/">数理 /</a>
-            <a href="/lawstop/">法集</a>
-            <style>
-                nav{
-                    background-color: #555;
-                }
-                a{
-                    text-decoration: none;
-                    color: #fff
-                }
-            </style>
+            <li><a href="/">サイトトップ</a></li>
+            <li><a href="/smtop/">数理</a></li>
+            <li><a href="/lawstop/">法集</a></li>
         </nav>
+        <style>
+            nav {
+                list-style: none;
+                overflow: hidden;
+            }
+            nav li{
+                width: 140px;
+                text-align: center;
+                background-color: #8ebef2;
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                margin-right: 2px;
+            }
+            nav li a{
+                text-decoration: none;
+                color: #000
+            }
+        </style>
         <slot /><!-- ここにコンテンツが挿入されます -->
     </body>
 
