@@ -1,3 +1,6 @@
+---
+import "../styles/global.css"
+---
 <html lang="ja">
 	<head>
 		<meta charset="utf-8" />
@@ -11,26 +14,8 @@
             <li><a href="/">サイトトップ</a></li>
             <li><a href="/smtop/">数理</a></li>
             <li><a href="/lawstop/">法集</a></li>
-            <style>
-                nav {
-                    list-style: none;
-                    overflow: hidden;
-                }
-                nav li{
-                    width: 140px;
-                    text-align: center;
-                    background-color: #8ebef2;
-                    float: left;
-                    height: 30px;
-                    line-height: 30px;
-                    margin-right: 2px;
-                }
-                nav li a{
-                    text-decoration: none;
-                    color: #000
-                }
-            </style>
         </nav>
+
         <slot /><!-- ここにコンテンツが挿入されます -->
     </body>
 
