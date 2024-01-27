@@ -16,7 +16,8 @@ const allPosts = await Astro.glob('/pages/obsidian/*.md');
     <h1>日記</h1>
     日記。
     <ul>
-        {allPosts.map((post) => <li><a href={post.url.slice(10)}>{post.frontmatter.title}</a></li>)}
+        {allPosts.map((post) => <li><a href={post.url.slice(9)}>{post.url.slice(9)}</a></li>)}
+        <!-- <a href={post.url}>{post.frontmatter.title}</a> -->
     </ul>
 
     </body>
