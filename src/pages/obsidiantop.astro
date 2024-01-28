@@ -3,22 +3,11 @@ import BasicLayout from "../layouts/BasicLayout.astro";
 const allPosts = await Astro.glob('../pages/obsidian/*.md');
 ---
 <BasicLayout>
-<html lang = "ja">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/svg.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Comph-notes</title>
-	</head>
   <body>
-
     <h1>日記</h1>
     日記。
     <ul>
         {allPosts.map((post) => <li><a href={post.url.slice(9)}>{post.frontmatter.title}</a></li>)}
     </ul>
-
-    </body>
-</html>
+  </body>
 </BasicLayout>
