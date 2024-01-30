@@ -1,12 +1,12 @@
 ---
 import BasicLayout from "../layouts/BasicLayout.astro";
-import roadmap from '../assets/map.jpg';
+import roadmap from '../images/map.jpg';
 ---
 <BasicLayout>
   <body>
     <h1>数理</h1>
     数理に関するおぼえがき。
-    <p><img src={roadmap} alt="やりたいことの地図"/></p>
+    <img src={roadmap} alt="やりたいことの地図"/>
     <ul>
       <li><a href="/posts/sm01/">Bertrandの定理の証明概略</a></li>
       <li><a href="/posts/sm02/">正規直交基底に関する備忘録</a></li>
