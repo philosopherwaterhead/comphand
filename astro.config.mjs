@@ -12,6 +12,6 @@ export default defineConfig({
             ['rehype-katex', {
             // Katex plugin options
             }]
-        ]
+        ]   
     }
 });
